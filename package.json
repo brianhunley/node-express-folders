@@ -10,12 +10,15 @@
         "bootstrap": "^4.0.0-beta.2",
         "cookie-parser": "~1.4.3",
         "debug": "~2.6.9",
-        "express": "~4.15.5",
+        "express": "^4.15.5",
         "jquery": "^3.2.1",
         "morgan": "~1.9.0",
+        "node-sass": "^4.6.0",
         "popper": "^1.0.0",
+        "popper.js": "^1.12.6",
         "pug": "2.0.0-beta11",
-        "serve-favicon": "~2.4.5"
+        "serve-favicon": "~2.4.5",
+        "tooltip.js": "^1.1.6"
     },
     "devDependencies": {
         "autoprefixer": "^7.1.6",
@@ -24,7 +27,9 @@
         "cssnano": "^3.10.0",
         "del": "^3.0.0",
         "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^4.0.0",
         "gulp-clean-css": "^3.9.0",
+        "gulp-cleancss": "^0.2.2",
         "gulp-concat": "^2.6.1",
         "gulp-cssnano": "^2.1.2",
         "gulp-deporder": "^1.1.0",
@@ -34,7 +39,10 @@
         "gulp-postcss": "^7.0.0",
         "gulp-sass": "^3.1.0",
         "gulp-strip-debug": "^1.1.0",
+        "gulp-typescript": "^3.2.3",
         "gulp-uglify": "^3.0.0",
-        "postcss-assets": "^5.0.0"
+        "gulp-zip": "^4.0.0",
+        "postcss-assets": "^5.0.0",
+        "typescript": "^2.5.3"
     }
 }

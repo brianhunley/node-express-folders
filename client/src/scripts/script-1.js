@@ -5,3 +5,5 @@ var three = 3;
 var hello = function(name) {
   console.log('Hello, ' + name + '!');
 }
+
+hello('Brian');
