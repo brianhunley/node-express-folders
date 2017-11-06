@@ -67,9 +67,6 @@ gulp.task('default', ['copy', 'images', 'styles', 'scripts', 'browser-sync'], fu
         'client/src/**/*',
         'server/**/*'
     ], browserSync.reload);
-    gulp.watch(dir.src + 'images/**/*', ['images'], browserSync.reload);
-    gulp.watch(dir.src + 'scripts/**/*', ['scripts'], browserSync.reload);
-    gulp.watch(dir.src + 'styles/**/*', ['styles'], browserSync.reload);
 });
 
 // ---------------------------------------------------------------
